@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+body{
+  flex-wrap: wrap;
+}
+header{
+    background-image: url('bg.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 88vh; 
+    width: 100%;
+    position: relative;
+    
+}
+
+main{
+    position: absolute;
+    background-color: rgba(58, 57, 56, 0.856);
+    height: 15%;
+    width: 70%;
+    top: 350px;
+    right: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cormorant Unicase', serif;
+}
+main h3{
+    color: rgb(229, 196, 175);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+nav{
+    height: 5%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 40px 0;
+}
+nav a{
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Cormorant Unicase', serif;
+}
+nav #active{
+    background-color: rgb(229, 196, 175);
+    padding:10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    color: rgb(229, 196, 175);
+    font-size: 21px;
+}
+nav #active:hover{
+    background-color: white;
+
+}
+#apropos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin: 10px;
+}
+#apropos div:first-child{
+   padding: 20px;
+   width: 50%; 
+   flex: 2;
+}
+#apropos h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+#apropos span{
+    color:rgb(229, 196, 175);
+    font-size: 45px;
+}
+#apropos p{
+    text-align: justify;
+    font-size: 20px;
+}
+#apropos div:nth-child(2){
+    margin: 20px;
+    width: 40%;
+    height: 60vh;
+    background-color: rgba(229, 196, 175, 0.548);
+    flex: 1;
+    
+
+}
+#apropos div:nth-child(2) img{
+    height: 70%;
+    right: 150px;
+    bottom: 60px;
+    position: absolute;
+}
+#competence{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(229, 196, 175, 0.548);
+}
+#Experience{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(87, 36, 29, 0.835);
+}
+#formation{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(85, 51, 28, 0.835);
+}
+#Projets{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(238, 150, 157, 0.835);
+}
+#Contact{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(65, 54, 49, 0.835);
+}
